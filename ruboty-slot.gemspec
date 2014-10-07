@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["block_given?"]
   spec.email         = ["block_given@outlook.com"]
   spec.summary       = %q{GitHub emoji スロット.}
-  spec.homepage      = "https://github.com/blockgiven/ruboty-the-"
+  spec.homepage      = "https://github.com/blockgiven/ruboty-slot"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
