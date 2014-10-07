@@ -23,7 +23,7 @@ Or install it yourself as:
 ![slot screenshot](screenshot.png)
 
     @ruboty スロット
-    @ruboty スロット
+    @ruboty slot
 
 ## Contributing
 
