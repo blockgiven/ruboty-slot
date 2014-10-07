@@ -20,6 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
+![slot screenshot](screenshot.png)
+
+    @ruboty スロット
     @ruboty スロット
 
 ## Contributing
