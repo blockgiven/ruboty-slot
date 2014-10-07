@@ -27,8 +27,8 @@ module Ruboty
         @stopped_at = stopped_at
       end
 
-      def to_s(display_size = default_display_size)
-        @symbols.cycle.drop(@rolled_count + @stopped_at).take(display_size)
+      def to_a(size = default_display_size)
+        @symbols.lazy.cycle.drop(@rolled_count + @stopped_at).take(size).to_a
       end
     end
   end

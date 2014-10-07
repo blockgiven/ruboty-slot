@@ -28,7 +28,7 @@ module Ruboty
       end
 
       def to_s
-        first, *rest = reels.map(&:to_s)
+        first, *rest = reels.map(&:to_a)
         first.zip(*rest).map(&:join).join($/)
       end
     end
