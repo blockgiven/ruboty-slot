@@ -1,9 +1,10 @@
 # encoding: UTF-8
 require "ruboty/slot/reel"
+require "ruboty/slot/slot_machine"
 
 module Ruboty
   module Slot
-    class GumFruit
+    class GumFruit < SlotMachine
       B = ":bell:"         # ベル
       O = ":tangerine:"    # オレンジ
       L = ":lemon:"        # レモン
@@ -17,19 +18,6 @@ module Ruboty
           Reel.new(L, G, O, M, B, O, P, M, B, P, O, M, B, O),
           Reel.new(G, L, P, O, B, P, O, G, L, P, O, L, B, O)
         ]
-      end
-
-      def pull_lever
-        reels.each(&:roll)
-      end
-
-      def push_stop_button(n)
-        reels[n].stop
-      end
-
-      def to_s
-        first, *rest = reels.map(&:to_a)
-        first.zip(*rest).map(&:join).join($/)
       end
     end
   end
