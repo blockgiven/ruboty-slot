@@ -1,11 +1,11 @@
 # encoding: UTF-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'ruboty/theスロット/version'
+require 'ruboty/slot/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "ruboty-theスロット"
-  spec.version       = Ruboty::Theスロット::VERSION
+  spec.name          = "ruboty-slot"
+  spec.version       = Ruboty::Slot::VERSION
   spec.authors       = ["block_given?"]
   spec.email         = ["block_given@outlook.com"]
   spec.summary       = %q{GitHub emoji スロット.}

@@ -1,9 +1,9 @@
 # encoding: UTF-8
 module Ruboty
   module Actions
-    class Theスロット < Base
+    class Slot < Base
       def call
-        slot_machine = Ruboty::Theスロット::GumFruit.new
+        slot_machine = Ruboty::Slot::GumFruit.new
         slot_machine.pull_lever
         slot_machine.reels.count.times do |n|
           slot_machine.push_stop_button(n)

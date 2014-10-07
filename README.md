@@ -1,4 +1,4 @@
-# Ruboty::Theスロット
+# Ruboty::Slot
 
 GitHub emoji スロット
 
@@ -7,7 +7,7 @@ GitHub emoji スロット
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'ruboty-theスロット'
+gem 'ruboty-slot'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install ruboty-theスロット
+    $ gem install ruboty-slot
 
 ## Usage
 
@@ -24,7 +24,7 @@ Or install it yourself as:
 
 ## Contributing
 
-1. Fork it ( https://github.com/blockgivenh/ruboty-the-/fork )
+1. Fork it ( https://github.com/blockgivenh/ruboty-slot/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

@@ -2,7 +2,7 @@
 require 'securerandom'
 
 module Ruboty
-  module Theスロット
+  module Slot
     class Reel
       DEFAULT_DISPLAY_SIZE = 3
 

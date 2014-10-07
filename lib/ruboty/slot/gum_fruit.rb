@@ -1,8 +1,8 @@
 # encoding: UTF-8
-require "ruboty/theスロット/reel"
+require "ruboty/slot/reel"
 
 module Ruboty
-  module Theスロット
+  module Slot
     class GumFruit
       B = ":bell:"         # ベル
       O = ":tangerine:"    # オレンジ
