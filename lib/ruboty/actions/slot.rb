@@ -8,7 +8,7 @@ module Ruboty
         slot_machine.reels.count.times do |n|
           slot_machine.push_stop_button(n)
         end
-        message.reply("@#{message.from_name}#{$/}#{slot_machine.to_s}")
+        message.reply("#{$/}#{slot_machine.to_s}")
       end
     end
   end
